@@ -1,0 +1,42 @@
+.app{
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    
+}
+label {
+    display: inline-block;
+    
+   
+}​
+table{
+    table-layout: fixed;
+    width: 250px;
+}
+
+th, td {
+   
+    width: 185px ;
+    word-wrap: break-word;
+    
+}
+.anchoeditar{
+width: 100px;
+
+}
+button{
+    color:#ffff;
+    margin-top: 5px;
+    
+}
+
+@media(max-width:414px){
+    .app{
+        width: 600px;
+        border-radius: 4px;
+        background:#fff;
+        
+    }
+    
+}
